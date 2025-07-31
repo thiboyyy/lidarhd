@@ -1,10 +1,10 @@
 # LiDAR-HD Downloader
 
-Utility to download LiDAR HD to LAZ based on AOI defined in a GeoDataframe.
+## Description
+![cloud](doc/cloud.jpg)
+Utility to **download France IGN LiDAR HD** to LAZ file based on AOI (Area of Interest) defined in a GeoPandas GeoDataframe.
 
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Then follow instructions in lidarhd.ipynb Jupyter Notebook
-```
+##  Usage
+- Install Python dependencies : `pip install -r requirements.txt`
+- Follow instructions in notebook. Output will be like :  
+![out](doc/out.jpg)
